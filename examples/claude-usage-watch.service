@@ -1,0 +1,8 @@
+[Unit]
+Description=Claude plan usage watch: read the meters, alert on pace, morning report
+
+[Service]
+Type=oneshot
+# Change the path to where you put the script. Variables live in the env file (see .env.example).
+EnvironmentFile=%h/.config/claude-usage-watch/env
+ExecStart=/usr/bin/python3 -I /path/to/claude-usage-watch/claude_usage_watch.py
