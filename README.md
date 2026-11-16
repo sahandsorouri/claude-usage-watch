@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/sahandsorouri/sahandsorouri/main/assets/banner.svg" alt="Sahand Sorouri" width="100%">
+
 # claude-usage-watch
 
 A small Python script that watches your Claude plan usage meters (the 5-hour window and the weekly limit) and tells you when you are burning the week too fast. It runs every 5 minutes from a systemd user timer, keeps a short history, and sends:
